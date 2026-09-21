@@ -1,0 +1,48 @@
+site_name: Лабораторная работа - потоки, процессы и асинхронность
+site_description: Отчёт по лабораторной работе на Python (threading, multiprocessing, asyncio)
+
+site_url: https://jaloliddin418.github.io/WEB_Lab_2
+
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+  features:
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - toc.follow
+
+nav:
+  - Главная: index.md
+  - Теоретическая часть: theory.md
+  - Задача 1 - сумма чисел: task1.md
+  - Задача 2 - парсинг веб-страниц: task2.md
+  - Разбор кода: code.md
+  - Выводы: conclusions.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
